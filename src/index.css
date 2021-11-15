@@ -1,11 +1,23 @@
+@font-face {
+  font-family: 'printable4uregular';
+  src: url('./font/printable4u_regular_ver_1.00-webfont.woff2') format('woff2'),
+       url('./font/printable4u_regular_ver_1.00-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
+  font-family: 'printable4uregular';
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
